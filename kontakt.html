@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotbollsutrustning</title>
+    <link rel="stylesheet" href="gyarte.css">
+</head>
+<body>
+    <header>
+        <h1>KONTAKT</h1>
+        <nav>
+            <ul>
+                <li><a href="gyarte.html">Hem</a></li>
+                <li><a href="produkter.html">Produkter</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="kontakt" class="kontakt">
+        <h2>Kontakta oss</h2>
+        <p>Har du några frågor? Fyll i formuläret nedan så återkommer vi så snart som möjligt.</p>
+        <form class="contact-form">
+            <label for="name">Namn:</label>
+            <input type="text" id="name" name="name" placeholder="Ditt namn" required>
+
+            <label for="email">E-post:</label>
+            <input type="email" id="email" name="email" placeholder="Din e-post" required>
+
+            <label for="message">Meddelande:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Skriv ditt meddelande här" required></textarea>
+
+            <button type="submit">Skicka Meddelande</button>
+        </form>
+
+        <!-- Knapp för att gå tillbaka till hem -->
+        <div class="back-home">
+            <a href="gyarte.html" class="back-button">Tillbaka till Hem</a>
+        </div>
+    </section>
+
+    <footer>
+        <h2>Kontakta oss</h2>
+        <p>Email: info@fotbollsutrustning.se</p>
+        <p>Telefon: 0123-456789</p>
+    </footer>
+</body>
+</html>

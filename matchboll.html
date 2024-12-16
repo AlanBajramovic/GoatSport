@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoatSport</title>
+    <link rel="stylesheet" href="gyarte.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="gyarte.html">Hem</a></li>
+                <li><a href="produkter.html">Produkter</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hem" class="hero">
+        <h2>Allt du behöver för att spela fotboll</h2>
+        <p>Vi har skor, bollar och annan fotbollsutrustning för alla nivåer!</p>
+    </section>
+
+    <!-- Produktsidan -->
+    <section id="produkter" class="produkter">
+        <h2>Våra produkter</h2>
+        <div class="product-list">
+            <div class="product-item">
+                <img src="matchboll.png" alt="Fotboll">
+                <h3><a href="matchboll.html">Matchboll</a></h3>
+                <p>Högkvalitativa matchbollar för alla nivåer.</p>
+                <button class="add-to-cart">Lägg till i varukorgen</button>
+            </div>
+            <!-- Lägg till fler produkter här -->
+        </div>
+    </section>
+
+    <!-- Matchboll-sidan -->
+    <section id="matchboll" class="product-details">
+        <h2>Matchboll</h2>
+        <div class="product-images">
+            <img src="matchboll1.png" alt="Adidas Football Pro Champions League London 2024 Matchboll">
+            <img src="matchboll2.png" alt="Fotboll Select Briliant Super TB V23 Fifa Quality Pro">
+        </div>
+        <p>Våra matchbollar är certifierade för professionellt spel och har hög hållbarhet och precision.</p>
+
+        <!-- Betalningssektion -->
+        <div class="payment-section">
+            <h3>Betalning</h3>
+            <form class="payment-form">
+                <label for="name">Namn:</label>
+                <input type="text" id="name" name="name" placeholder="Ditt namn" required>
+
+                <label for="card">Kortnummer:</label>
+                <input type="text" id="card" name="card" placeholder="1234 5678 9012 3456" required>
+
+                <label for="expiry">Utgångsdatum:</label>
+                <input type="text" id="expiry" name="expiry" placeholder="MM/ÅÅ" required>
+
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" placeholder="123" required>
+
+                <button type="submit">Betala</button>
+            </form>
+        </div>
+
+        <!-- Knapp för att gå tillbaka till Produkter -->
+        <div class="back-home">
+            <a href="produkter.html" class="back-button">Tillbaka till Produkter</a>
+        </div>
+    </section>
+
+    <footer>
+        <h2>Kontakta oss</h2>
+        <p>Email: info@fotbollsutrustning.se</p>
+        <p>Telefon: 0123-456789</p>
+    </footer>
+</body>
+</html>
