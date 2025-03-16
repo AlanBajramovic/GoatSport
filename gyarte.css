@@ -13,7 +13,7 @@ body {
 
 header {
     background-color: #333;
-    color:black;
+    color:rgb(0, 0, 0);
     padding: 20px 0;
     text-align: center;
 }
@@ -38,7 +38,7 @@ nav ul li a {
     font-weight: bold;
 }
 
-.hero {
+.hero1{
     background-image: url('fotboll-banner.jpg');
     background-size: cover;
     background-position: center;
@@ -47,7 +47,67 @@ nav ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #000000;
+}
+
+.hero2{
+    background-image: url('fotboll-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+.hero3{
+    background-image: url('fotboll-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+.hero4{
+    background-image: url('fotboll-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+.hero5{
+    background-image: url('fotboll-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+.hero6{
+    background-image: url('fotboll-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
 }
 
 .hero h2 {
@@ -309,7 +369,7 @@ nav ul li a {
 .contact-form {
     max-width: 600px;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #ababab;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
