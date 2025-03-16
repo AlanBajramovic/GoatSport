@@ -21,8 +21,8 @@
         </nav>
     </header>
 
-    <section id="hem" class="hero">
-        <h2>Allt du behöver för att spela fotboll</h2>
+    <section id="hem" class="hero2">
+        <h2>ALLT DU BEHÖVER FÖR ATT SPELA FOTBOLL</h2>
         <p>Vi har skor, bollar och annan fotbollsutrustning för alla nivåer!</p>
     </section>
     <hr>
@@ -119,19 +119,5 @@
         <p>Email: info@fotbollsutrustning.se</p>
         <p>Telefon: 0123-456789</p>
     </footer>
-
-    <script>
-         fetch('/api/products')
-            .then(response => response.json())
-            .then(products => {
-                const productList = document.getElementById('product-list');
-                products.forEach(product => {
-                    const listItem = document.createElement('li');
-                    listItem.textContent = `${product.name} - ${product.price} kr`;
-                    productList.appendChild(listItem);
-                });
-            })
-            .catch(error => console.error('Fel vid hämtning av produkter:', error));
-    </script>
 </body>
 </html>
